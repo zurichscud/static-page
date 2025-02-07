@@ -1,0 +1,66 @@
+body{
+    background-image: url("https://act-webstatic.mihoyo.com/puzzle/hk4e/pz_HchpTjRAPB/resource/puzzle/2025/01/21/2ee73273c7a3ea7cdbb3258f1edd5dd2_3699623971393869735.png?x-oss-process=image/format,webp/quality,Q_90");
+    background-size: cover;
+    /*background-image: url("https://act-webstatic.mihoyo.com/puzzle/hk4e/pz_HchpTjRAPB/resource/puzzle/2025/01/21/0f5de7f84c9decbcb78738412eadef63_3036192503515395382.png?x-oss-process=image/format,webp/quality,Q_90");*/
+    /*background-position: center center;*/
+}
+header{
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+header img{
+    height: 60px;
+}
+header nav{
+    display: flex;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+header nav a:hover{
+    box-shadow: 0 0 10px white;
+}
+main{
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section{
+    display: flex;
+    /*background-color: yellowgreen;*/
+    width: 1000px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main section .item{
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255,255,255,0.6);
+    /*margin-right: 10px;*/
+    letter-spacing: 5px;
+    border-radius: 10px;
+    transition: 0.2s;
+
+}
+main section .item:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #fbe8b9;
+}
+main section .item img{
+    width: 100px;
+}
